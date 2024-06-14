@@ -26,6 +26,36 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Practice the product section
+```bash
+#Create Entity
+#Practice the product section
+#Training Functions:
+#CRUD product
+#GetListCustom with the functions of pagination, sorting, searching by specified parameters
+#ex:http://localhost:3000/product/get-custom-products?page=2&limit=3&search=product&searchBy=title&categoryId=768.00&sortOrder=asc&sortBy=description
+{
+    "data": [
+        {
+            "id": 7,
+            "categoryId": 2,
+            "title": "Product 7",
+            "description": "Description for product 7",
+            "price": "133.00",
+            "quantity": 7,
+            "status": true,
+            "createdAt": "2024-06-14T02:43:35.000Z",
+            "updatedAt": "2024-06-14T02:43:35.000Z"
+        }
+    ],
+    "meta": {
+        "total": 1,
+        "page": 1,
+        "last_page": 1
+    }
+}
+```
+
 ## Installation
 
 ```bash
